@@ -1,0 +1,7 @@
+Só executar o arquivo "MarioGame.html"
+
+jogo irá abrir pelo navegador, ao perder, basta recarregar a pagina, no botão de recarregar, ou (ctrl+r)
+
+Para jogar, basta apertar "espaço" ou qualquer tecla para pular
+
+divirta-se :3

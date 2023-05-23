@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing : border-box;
+}
+
+.game-board {
+    width: 100%;
+    height: 800px;
+    
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(#87CEEB, #E0F6FF);
+}
+
+.pipe {
+    position: absolute;
+    bottom: 115px;
+    width: 80px;
+    animation: pipe-animation 1.5s infinite linear;
+}
+
+.mario {
+    width: 150px;
+    position: absolute;
+    bottom: 115px;
+}
+
+.clauds2{
+    position: absolute;
+    width: 200px;
+    bottom: 700px;
+    animation: clauds2-animation 50s infinite linear;
+}
+
+.clauds{
+    position: absolute;
+    width: 480px;
+    bottom: 450px;
+    animation: clauds-animation 20s infinite linear;
+}
+
+background{
+    position: absolute;
+    bottom: 0px;
+    width: 1950px;
+}
+
+.background{
+    position: absolute;
+    bottom: 0px;
+    width: 1950px;
+}
+
+.jump{
+    animation: jump 500ms ease-out;
+}
+
+
+@keyframes pipe-animation {
+    from {
+        right: -80px;
+    }
+
+    to{
+        right: 100%;
+    }
+}
+
+@keyframes jump {
+   0%{
+    bottom: 115px;
+   }
+
+   40%{
+    bottom: 295px;
+   }
+
+   50%{
+    bottom: 295px;
+   }
+
+   60%{
+    bottom: 295px;
+   }
+
+   100%{
+    bottom: 115px;
+   }
+
+}
+
+@keyframes clauds-animation {
+    from {
+        right: -545px;
+    }
+
+    to{
+        right: 100%;
+    }
+
+
+}
+
+@keyframes clauds2-animation {
+    from {
+        right: -545px;
+    }
+
+    to{
+        right: 100%;
+    }
+
+
+}
+
